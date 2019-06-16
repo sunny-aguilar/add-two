@@ -10,7 +10,7 @@
 *.sln.docstates
 add-two.sln
 add-two.vcxproj
-add-two.vcxproj.filter
+add-two.vcxproj.filters
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

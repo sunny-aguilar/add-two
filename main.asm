@@ -1,5 +1,5 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;	Author:		Sandro Aguilar
+;	Author:				Sandro Aguilar
 ;	Date:
 ;	Description:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10,15 +10,18 @@
 ExitProcess PROTO, dwExitCode: DWORD
 
 .data
-		; declare your variables here
+	; declare your variables here
+	firstVal DWORD 20002000h
+	secondVal DWORD
+
 .code
 
 main PROC
 		; write your assembly code here
 	mov eax, 10
-	mov ebx, 30
-	add eax, ebx
+	add eax, 30
+	mov sum, eax
 
-INVOKE ExitProcess, 0
+ 	INVOKE ExitProcess, 0
 main ENDP
 END main

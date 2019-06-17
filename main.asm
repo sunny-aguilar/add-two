@@ -17,7 +17,7 @@ ExitProcess PROTO, dwExitCode: DWORD
 .code
 
 main PROC
-		; write your assembly code here
+	; write your assembly code here
 	mov eax, 10
 	add eax, 30
 	mov sum, eax

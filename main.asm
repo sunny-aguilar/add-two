@@ -1,7 +1,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;	Author:				Sandro Aguilar
 ;	Date:				June 16, 2019
-;	Description:		Simple MASM program t
+;	Description:		Simple MASM program th
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 .386
